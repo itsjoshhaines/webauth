@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Table</title>
+<style>
+
+table, th, td {
+  border: 4px dotted;
+  border-collapse: collapse;
+
+}
+caption{
+
+    background-color: chartreuse;
+
+}
+
+tbody{
+
+    text-align: right;
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+}
+td{
+
+    padding: 20px;
+}
+
+th{
+
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+}
+tfoot{
+
+    text-align: right;
+    height: 200px;
+    width: 300px;
+    padding: 15px;
+    background-color: red;
+}
+
+</style>
+</head>
+<body>
+
+    <table>
+        <caption>Students</caption>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>GPA</th>
+        </tr>
+        <tbody>
+        <tr>
+          <td>Alfred</td>
+          <td>16</td>
+          <td>4.0</td>
+        </tr>
+        <tr>
+          <td>Terry</td>
+          <td>17</td>
+          <td>3.4</td>
+        </tr>
+    </tbody>
+        <tfoot>
+            <td>Alfred and Terry</td>
+            <td>16.5</td>
+            <td> 3.7</td>
+
+        </tfoot>
+      </table>
+
+</body>
+</html>

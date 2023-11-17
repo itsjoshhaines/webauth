@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Multiple Backgrounds</title>
+<style>
+    body, html {
+        height: 100%;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #style1
+    {
+
+        height: 600px;
+        width: 600px;
+        background-image: url(https://pngimg.com/d/hat_PNG5706.png), url(https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/GettyImages-1092658864_hero-1024x575.jpg?w=1155&h=1528), url(https://i.pinimg.com/474x/8e/e7/44/8ee7446ffc47c492e9d7736c17755658.jpg);
+        background-repeat: no-repeat, no-repeat, repeat;
+        background-position: 200px 140px, center, center;
+        background-size: 200px 120px, 300px 200px, auto;
+        
+    }
+
+    #style2
+    {
+
+        
+        height: 600px;
+        width: 600px;
+        
+        background: url("https://pngimg.com/d/hat_PNG5706.png") no-repeat 200px 120px/200px 140px, url("https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/GettyImages-1092658864_hero-1024x575.jpg?w=1155&h=1528") no-repeat center/300px 200px, url("https://pngimg.com/d/hat_PNG5706.png") no-repeat 200px 120px/200px 140px, url("https://i.pinimg.com/474x/8e/e7/44/8ee7446ffc47c492e9d7736c17755658.jpg") repeat center/auto;
+        
+        
+        
+        
+        
+    }
+
+    #style3
+    {
+
+        height: 100%;
+        width: 100%;
+        background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 0%;
+        
+    }
+
+    #style4
+    {
+
+        height: 300px;
+        width: 300px;
+        background-image: url(https://news.utexas.edu/wp-content/uploads/2022/07/Hero-600x400-c-default.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        
+    }
+</style>
+</head>
+<body>
+
+    <div id="style4">
+
+<h1>Josh Haines</h1>
+        
+    </div>
+    <div id="style1">
+
+        
+
+    </div>
+
+    <div id="style2">
+
+        
+
+    </div>
+    <div id="style3">
+
+
+
+    </div>
+    
+
+</body>
+</html>
